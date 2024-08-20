@@ -5,7 +5,7 @@ import { AddBox } from '@mui/icons-material';
 
 type AddItemFormPropsType = {
     addItem: (title: string) => void
-    disabled?: boolean
+    disabled?: boolean | undefined
 }
 
 export const AddItemForm = React.memo(function (props: AddItemFormPropsType) {
